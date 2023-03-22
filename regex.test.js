@@ -32,7 +32,7 @@ required extention are jpg, jpeg and png.
 function imagesSearcher(text) {
     let regex2 = (/([a-zA-Z0-9]+\.[a-zA-Z0-9_-]+[a-zA-Z])/gi);
     let total = str.match(regex2);
-
+    let arr =[];
     //const myArray = total[0].split(".");
     for (let i = 0; i < total.length; i++) {
         const myArray = total[i].split(".");
